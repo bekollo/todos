@@ -120,11 +120,11 @@
                     </x-jet-dialog-modal>
                     <x-jet-dialog-modal wire:model="modalDeleteConfirmVisible">
                         <x-slot name="title">
-                            {{ __('Haber Sil') }}
+                            {{ __('Görevi Sil') }}
                         </x-slot>
 
                         <x-slot name="content">
-                            {{ __('Haberi silmek istediğinize emin misiniz? Haber kalıcı olarak silinecektir.') }}
+                            {{ __('Görevi silmek istediğinize emin misiniz? Görev kalıcı olarak silinecektir.') }}
 
                         </x-slot>
                         <x-slot name="footer">
